@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Franek Mirkowski - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            line-height: 1.6;
+            color: #2c2c2c;
+            max-width: 680px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background: #fff;
+        }
+
+        h1 {
+            font-size: 2.25rem;
+            font-weight: 600;
+            margin-bottom: 24px;
+            letter-spacing: -0.02em;
+        }
+
+        h2 {
+            font-size: 1.75rem;
+            font-weight: 600;
+            margin: 56px 0 24px 0;
+            color: #000;
+            letter-spacing: -0.02em;
+        }
+
+        h3 {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 12px;
+            color: #000;
+        }
+
+        p {
+            margin-bottom: 20px;
+            font-size: 1.05rem;
+            color: #333;
+        }
+
+        .intro-container {
+            display: flex;
+            align-items: flex-start;
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+
+        .intro-content {
+            flex: 1;
+        }
+
+        .profile-image {
+            width: 140px;
+            height: 140px;
+            border-radius: 12px;
+            object-fit: cover;
+        }
+
+        .text-block {
+            margin-bottom: 24px;
+            font-size: 1.05rem;
+        }
+
+        .highlight {
+            background: #f5f5f5;
+            padding: 2px 4px;
+            border-radius: 3px;
+        }
+
+        .section {
+            margin-top: 56px;
+        }
+
+        .project {
+            margin-bottom: 40px;
+        }
+
+        .project-links {
+            display: flex;
+            gap: 12px;
+            margin-top: 16px;
+        }
+
+        .project-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 8px 16px;
+            background: #f5f5f5;
+            border-radius: 6px;
+            color: #333;
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: all 0.2s ease;
+        }
+
+        .project-link:hover {
+            background: #eee;
+            color: #000;
+            transform: translateY(-2px);
+        }
+
+        .note {
+            font-size: 0.95rem;
+            color: #666;
+            margin: 0 0 24px 0;
+        }
+
+        .contact {
+            margin-top: 56px;
+            padding-top: 40px;
+            border-top: 1px solid #eee;
+        }
+
+        .email-container {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin: 24px 0;
+        }
+
+        .email {
+            font-size: 1.75rem;
+            font-weight: 600;
+            letter-spacing: -0.02em;
+            color: #000;
+        }
+
+        .copy-button {
+            background: #f5f5f5;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 6px;
+            font-size: 0.9rem;
+            color: #333;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .copy-button:hover {
+            background: #eee;
+            color: #000;
+            transform: translateY(-2px);
+        }
+
+        .copy-button:active {
+            transform: translateY(0);
+        }
+
+        .links-list {
+            margin-top: 32px;
+        }
+
+        .link-item {
+            padding: 8px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #f5f5f5;
+        }
+
+        .link-item span {
+            font-weight: 500;
+            min-width: 80px;
+        }
+
+        .link-item a {
+            color: #666;
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+
+        .link-item a:hover {
+            color: #000;
+        }
+
+        @media (max-width: 640px) {
+            .intro-container {
+                flex-direction: column-reverse;
+                gap: 24px;
+            }
+
+            .profile-image {
+                width: 120px;
+                height: 120px;
+            }
+
+            .link-item {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 4px;
+            }
+
+            h1 {
+                font-size: 1.75rem;
+            }
+
+            .email {
+                font-size: 1.25rem;
+            }
+
+            body {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="intro-container">
+            <div class="intro-content">
+                <h1>Hi, I'm Franek 👋</h1>
+                <div class="text-block">
+                    I'm a 15yo <span class="highlight">builder</span>, <span class="highlight">indie founder</span>, and <span class="highlight">ML enthusiast</span> experimenting and building with a fundamental goal to create something people want and need.
+                </div>
+            </div>
+            <img src="/p.png" alt="Franek Mirkowski" class="profile-image">
+        </div>
+
+        <div class="text-block">
+            Right now, I'm diving deep into the indie maker space. I love the process of creating and contributing to products that people want and need, especially during hackathons. The intensity of work, having to prioritize, pivot, and navigate through chaos and lack of sleep to build a prototype in such a short time really drives me forward. 
+            I'm also working on research experiments and mini-projects in AI and machine learning, learning and growing along the way.
+        </div>
+
+        <div class="text-block">
+            Outside of tech, I'm into trail running - recently completed one of the toughest 26km races in the Bieszczady Mountains. I also do wrestling and BJJ when I can.
+        </div>
+
+        <section class="section">
+            <h2>Products</h2>
+            
+            <div class="project">
+                <h3>SightVoiceApp</h3>
+                <p>A mobile app that makes traveling and sightseeing more accessible, engaging, and tailored to individual interests, that actually works. I presented it at one of the largest ML conferences in Poland - MLinPL for the Finals of the ElevenLabs AI Audio Challenge. Developed with a team of 4 friends from the Olympiad.</p>
+                <div class="project-links">
+                    <a href="https://sightvoiceapp.vercel.app" class="project-link">Try it Out!</a>
+                    <a href="https://github.com/fimpro/ElevenLabsChallenge" class="project-link">GitHub</a>
+                </div>
+            </div>
+
+            <div class="project">
+                <h3>Consilio</h3>
+                <p>A hackathon project aiming to solve frustration caused by overwhelming product choices and lack of personalized guidance when shopping online. Still having this problem, I may continue building towards a B2B solution like this.</p>
+                <div class="project-links">
+                    <a href="https://github.com/fmirkowski/consilio" class="project-link">GitHub →</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>First Poland's AI Olympiad</h2>
+            <p>I was among the top 30 contestants in the first stage of the Olympiad, which was open to all high school students in Poland. This competition kickstarted my journey in the field, and I met many great people at the bootcamp. During the event, we attended advanced classes on modern techniques in deep learning, conducted by both academia and industry experts.</p>
+            <div class="project-links">
+                <a href="#" class="project-link">Learn More →</a>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Research & Experiments</h2>
+            <p class="note">Some of my latest experiments and workshop work.</p>
+
+            <div class="project">
+                <h3>Chemoinformatics: Alzheimer's Disease Inhibitors Classification</h3>
+                <p>Simple finding of compounds that could inhibit Beta-Secretase 1, a key protein involved in Alzheimer disease progression. Explored a really new field for me, but found it pretty interesting.</p>
+                <div class="project-links">
+                    <a href="https://github.com/fmirkowski/molecular-machine-learning" class="project-link">View Research →</a>
+                </div>
+            </div>
+
+            <div class="project">
+                <h3>Predicting Protein Behavior</h3>
+                <p>Created a simple system to understand how small proteins (peptides) function in the body. By analyzing the molecular structure of over 15,000 different proteins in a very unbalanced database, it may help predict how these molecules might behave in medical applications, still working on improving the score tho.</p>
+                <div class="project-links">
+                    <a href="https://github.com/fmirkowski/molecular-machine-learning" class="project-link">View Research →</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact">
+            <h2>Contact</h2>
+            <p>I'm always open to new opportunities, collaborations, and conversations!</p>
+            
+            <div class="email-container">
+                <span class="email">mirkowskifranciszek@gmail.com</span>
+                <button onclick="copyEmail()" class="copy-button">Copy</button>
+            </div>
+
+            <div class="links-list">
+                <div class="link-item">
+                    <span>LinkedIn</span>
+                    <a href="https://www.linkedin.com/in/franek-mirkowski-a0abb3330/">linkedin.com/in/franek-mirkowski-a0abb3330/</a>
+                </div>
+                <div class="link-item">
+                    <span>Github</span>
+                    <a href="https://github.com/fmirkowski">github.com/fmirkowski</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        function copyEmail() {
+            navigator.clipboard.writeText('mirkowskifranciszek@gmail.com');
+            const button = document.querySelector('.copy-button');
+            button.textContent = 'Copied!';
+            setTimeout(() => {
+                button.textContent = 'Copy';
+            }, 2000);
+        }
+    </script>
+</body>
+</html>
