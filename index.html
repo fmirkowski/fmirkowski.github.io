@@ -236,6 +236,22 @@
             .intro-container, .project, .contact {
                 padding: 24px;
             }
+
+            section h2 {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 8px;
+                font-size: 1.5rem;
+                margin-bottom: 24px;
+            }
+
+            .tech-tag {
+                font-size: 0.7rem;
+                padding: 4px 12px;
+                margin-bottom: 0;
+                display: inline-block;
+            }
         }
 
         .olympiad-section {
@@ -277,6 +293,22 @@
             font-weight: 700;
             padding-right: 16px;
         }
+
+        .project h3.scipar-title {
+            background: linear-gradient(45deg, #0b91ff, #005082);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            display: inline-block;
+        }
+
+        .project h3.sightvoice-title {
+            background: linear-gradient(45deg, #ffc06d, #ff906e);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            display: inline-block;
+        }
     </style>
 </head>
 <body>
@@ -292,8 +324,8 @@
         </div>
 
         <div class="text-block">
-            Right now, I'm diving deep into the <strong>indie maker</strong> space. I love the process of creating and contributing to products that people want and need, especially during <strong>hackathons</strong>. The intensity of work, having to prioritize, pivot, and navigate through chaos and lack of sleep to build a prototype in such a short time <strong>really drives me forward</strong>. 
-            I'm also working on research experiments and mini-projects in AI and machine learning, learning and growing along the way.
+            Right now, I'm diving deep into the <strong>indie maker</strong> and <strong>research</strong> space. I love the process of creating and contributing to products that people want and need, especially during <strong>hackathons</strong>. The intensity of work, having to prioritize, pivot, and navigate through chaos and lack of sleep to build a prototype in such a short time <strong>really drives me forward</strong>. 
+           
         </div>
 
         <div class="text-block">
@@ -304,7 +336,7 @@
             <h2>Products</h2>
             
             <div class="project">
-                <h3>SightVoiceApp</h3> 
+                <h3 class="sightvoice-title">SightVoiceApp</h3>
                 
                 <p>A <strong>mobile app</strong> that makes traveling and sightseeing more accessible, engaging, and tailored to individual interests, that actually works. I presented it at one of the largest <strong>ML conferences</strong> in Poland - <strong>MLinPL</strong> for the Finals of the <strong>ElevenLabs AI Audio Challenge</strong>. Developed with a team of 4 friends from the Olympiad.</p>
                 <div class="project-links">
@@ -314,7 +346,7 @@
             </div>
 
             <div class="project">
-                <h3>sciPar</h3>
+                <h3 class="scipar-title">sciPar</h3>
                 
                 <p>A platform to make discovering and implementing <strong>research</strong> more accessible for business professionals. It helps save time by enabling <strong>natural language</strong> expressions of their needs and problems and matching based on that also providing <strong>non-technical summaries</strong> adapted to query.</p>
                 <div class="project-links">
@@ -336,17 +368,17 @@
             <p class="note">Some of my latest experiments and workshop work.</p>
 
             <div class="project">
-                <h3>Chemoinformatics: Alzheimer's Disease Inhibitors Classification</h3>
-                <p>Simple finding of compounds that could inhibit <strong>Beta-Secretase 1</strong>, a key protein involved in <strong>Alzheimer disease</strong> progression. Explored a really new field for me, but found it pretty interesting.</p>
+                <h3>Speculative Editing <span class="tech-tag" style="background: #fff3dc; color: #b86e00;">In Progress</span></h3>
+                <p>Currently working on a new LLM inference acceleration technique for rewriting and modifying called <strong>Specuclative Editing</strong>, a simple variant of<strong> Speculative Decoding</strong> While doing my interview task from <strong>Cursor</strong> I noticed there is very little documentation about this technique, despite it giving very good results on code rewriting speed tasks. Work in progress, you can see it on my Github:</p>
                 <div class="project-links">
-                    <a href="https://github.com/fmirkowski/molecular-machine-learning" class="project-link">View</a>
+                    <a href="https://github.com/fmirkowski/speculative-editing" class="project-link" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> GitHub</a>
                 </div>
             </div>
 
+        
             <div class="project">
-                <h3>Predicting Protein Behavior</h3>
-                <p>Created a simple system to understand how small proteins (<strong>peptides</strong>) function in the body. By analyzing the molecular structure of over <strong>15,000</strong> different proteins in a very unbalanced database, it may help predict how these molecules might behave in medical applications, still working on improving the score tho.</p>
-                <div class="project-links">
+                <h3>molecular-machine-learning</h3>
+                <p>Worked on molecular ML tasks, like Classification of certain proteins responsible for Alzheimer's disease or predicting protein behaviour. It was a really new and abstract field for me, tho I found it pretty interesting. </p>
                     <a href="https://github.com/fmirkowski/molecular-machine-learning" class="project-link">View</a>
                 </div>
             </div>
