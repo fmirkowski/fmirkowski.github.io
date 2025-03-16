@@ -75,6 +75,10 @@ const Bio = () => {
           LinkedIn
         </Link>
         {', '}
+        <Link href="https://x.com/FranekMirko" target="_blank" rel="noopener noreferrer">
+          X
+        </Link>
+        {', '}
         <Link href="https://news.ycombinator.com/user?id=fmirkowski" target="_blank" rel="noopener noreferrer">
           Hacker News
         </Link>
