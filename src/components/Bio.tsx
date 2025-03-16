@@ -62,7 +62,7 @@ const Bio = () => {
       </Paragraph>
       
       <Paragraph>
-        I was a finalist in Poland's first AI Olympiad, work on research projects like Speculative Editing, and built <Link href="#/products">products</Link> including SightVoiceApp and sciPar. Outside tech, I'm into trail running and BJJ.
+        I was a finalist in Poland's first AI Olympiad, work on research projects like Speculative Editing, and built products including SightVoiceApp and sciPar. Outside tech, I'm into trail running and BJJ.
       </Paragraph>
       
       <Paragraph>
