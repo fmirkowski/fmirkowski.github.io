@@ -32,6 +32,6 @@ jobs:
         with:
           github_token: ${{ secrets.DEPLOY }}
           publish_dir: ./dist
-          publish_branch: main
+          publish_branch: gh-pages
           cname: mirkowski.dev
           force_orphan: true 
