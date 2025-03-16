@@ -58,11 +58,11 @@ const Bio = () => {
       </Paragraph>
       
       <Paragraph>
-        Live in the future and build what's missing. I believe that the best ideas emerge at the frontiers of fields, where deep understanding of what's possible allows important problems to be noticed.
+        Live in the future and build what's missing. I believe that the best ideas emerge at the frontiers of fields, where truly deep understanding of what's possible allows important problems to be noticed.
       </Paragraph>
       
       <Paragraph>
-        I was a finalist in Poland's first AI Olympiad, work on research projects like Speculative Editing, and built products including SightVoiceApp and sciPar. Outside tech, I'm into trail running and BJJ.
+        I am an engineer at SalesPatriot - a YC W25, defense startup, finalist in Poland's first AI Olympiad, worked on research projects like Speculative Editing, and built products including SightVoiceApp and sciPar.
       </Paragraph>
       
       <Paragraph>
