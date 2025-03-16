@@ -21,11 +21,12 @@ jobs:
         run: |
           npm install
           npm run build
+          cp CNAME dist/
           
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          personal_token: ${{ secrets.DEPLOY }}
-          external_repository: fmirkowski/fmirkowski.github.io
-          publish_branch: main
-          publish_dir: ./dist 
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: gh-pages
+          cname: mirkowski.dev 
