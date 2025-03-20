@@ -62,7 +62,7 @@ const Bio = () => {
       </Paragraph>
       
       <Paragraph>
-        I am an engineer at SalesPatriot - a YC W25, defense startup, finalist in Poland's first AI Olympiad, worked on research projects like Speculative Editing, and built products including <Link href="https://sightvoiceapp.vercel.app" target="_blank" rel="noopener noreferrer">SightVoiceApp</Link>, <Link href="https://scipar.vercel.app" target="_blank" rel="noopener noreferrer">sciPar</Link> and <Link href="https://revoice.vercel.app" target="_blank" rel="noopener noreferrer">ReVoice</Link>.
+        I am an engineer at SalesPatriot - a YC W25, defense startup, finalist in Poland's first AI Olympiad, worked on research projects like Speculative Editing, and built products including <Link href="https://sightvoiceapp.vercel.app" target="_blank" rel="noopener noreferrer">SightVoiceApp</Link>, <Link href="https://scipar.vercel.app" target="_blank" rel="noopener noreferrer">sciPar</Link> and <Link href="https://revoice-wwh.vercel.app" target="_blank" rel="noopener noreferrer">ReVoice</Link>.
       </Paragraph>
       
       <Paragraph>
