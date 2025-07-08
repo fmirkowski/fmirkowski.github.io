@@ -78,7 +78,7 @@ const Bio = () => {
       </Paragraph>
 
       <Paragraph>
-        I'm also an <strong>engineer at SalesPatriot</strong> - a YC W25, defense startup, <strong>dropped out of high school for a month to fly to SF and grind here.</strong> I'm a laureate & finalist in 1st and 2nd National AI Olympiad and built products (in 24h) including <Link href="https://sightvoiceapp.vercel.app" target="_blank" rel="noopener noreferrer">SightVoiceApp</Link>, <Link href="https://scipar.vercel.app" target="_blank" rel="noopener noreferrer">sciPar</Link> and <Link href="https://revoice-wwh.vercel.app" target="_blank" rel="noopener noreferrer">ReVoice</Link>.
+        I was also an <strong>engineer at SalesPatriot</strong> - a YC W25, defense startup and - <strong>visited SF for a month during school to explore the edge of research.</strong> I'm a laureate & finalist in 1st and 2nd National AI Olympiad and built products (in 24h) including <Link href="https://sightvoiceapp.vercel.app" target="_blank" rel="noopener noreferrer">SightVoiceApp</Link>, <Link href="https://scipar.vercel.app" target="_blank" rel="noopener noreferrer">sciPar</Link> and <Link href="https://revoice-wwh.vercel.app" target="_blank" rel="noopener noreferrer">ReVoice</Link>.
       </Paragraph>
       <Paragraph>
         Find me on{' '}
