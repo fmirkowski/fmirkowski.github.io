@@ -41,6 +41,18 @@ const CopyButton = styled.span`
   color: #555;
 `;
 
+const Navigation = styled.div`
+  margin-top: 60px;
+  padding-top: 40px;
+  border-top: 1px solid #eaeaea;
+`;
+
+const NavLink = styled(Link)`
+  font-size: 18px;
+  display: inline-block;
+  margin-right: 32px;
+`;
+
 const Bio = () => {
   const [copied, setCopied] = useState(false);
   const email = "mirkowskifranciszek@gmail.com";
@@ -90,6 +102,11 @@ const Bio = () => {
         <CopyButton onClick={handleCopyEmail}>{copied ? 'copied!' : 'copy'}</CopyButton>
         .
       </Paragraph>
+{/* 
+      <Navigation>
+        <NavLink href="#/resume">Resume</NavLink>
+        <NavLink href="#/products">Products</NavLink>
+      </Navigation> */}
     </Container>
   );
 };
