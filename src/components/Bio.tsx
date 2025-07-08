@@ -41,17 +41,17 @@ const CopyButton = styled.span`
   color: #555;
 `;
 
-const Navigation = styled.div`
-  margin-top: 60px;
-  padding-top: 40px;
-  border-top: 1px solid #eaeaea;
-`;
+// const Navigation = styled.div`
+//   margin-top: 60px;
+//   padding-top: 40px;
+//   border-top: 1px solid #eaeaea;
+// `;
 
-const NavLink = styled(Link)`
-  font-size: 18px;
-  display: inline-block;
-  margin-right: 32px;
-`;
+// const NavLink = styled(Link)`
+//   font-size: 18px;
+//   display: inline-block;
+//   margin-right: 32px;
+// `;
 
 const Bio = () => {
   const [copied, setCopied] = useState(false);
