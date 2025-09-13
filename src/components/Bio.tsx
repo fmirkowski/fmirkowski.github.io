@@ -66,20 +66,27 @@ const Bio = () => {
   return (
     <Container>
       <Paragraph>
-        I'm Franek Mirkowski, a <strong>16yo</strong> founder, and Deep Learning enthusiast from Poland.
+        hi. i'm Franek.
       </Paragraph>
       
       <Paragraph>
-        Live in the future and build what's missing. I believe that the best ideas emerge at the frontiers of fields, where truly deep understanding of what's possible allows important problems to be noticed.
+        i'm 16.
       </Paragraph>
       
       <Paragraph>
-        Currently working on <strong>Latent Reasoning</strong> and <strong>RLVR</strong>, because I don't believe language is the right proxy for reasoning.
+        at 15, i joined salespatriot (yc W25), a defense startup, as one of the first engineers.
       </Paragraph>
 
       <Paragraph>
-        I was also an <strong>engineer at SalesPatriot</strong> - a YC W25, defense startup and - <strong>visited SF for a month during school to explore the edge of research.</strong> I'm a laureate & finalist in 1st and 2nd National AI Olympiad and built products (in 24h) including <Link href="https://sightvoiceapp.vercel.app" target="_blank" rel="noopener noreferrer">SightVoiceApp</Link>, <Link href="https://scipar.vercel.app" target="_blank" rel="noopener noreferrer">sciPar</Link> and <Link href="https://revoice-wwh.vercel.app" target="_blank" rel="noopener noreferrer">ReVoice</Link>.
+        spent a month in SF exploring the edge of research.
       </Paragraph>
+      <Paragraph>
+        dropped out of high school.
+      </Paragraph>
+      <Paragraph>
+        now research eng @ ElevenLabs.
+      </Paragraph>
+      
       <Paragraph>
         Find me on{' '}
         <Link href="https://github.com/fmirkowski" target="_blank" rel="noopener noreferrer">
@@ -93,10 +100,7 @@ const Bio = () => {
         <Link href="https://x.com/FranekMirko" target="_blank" rel="noopener noreferrer">
           X
         </Link>
-        {', '}
-        <Link href="https://news.ycombinator.com/user?id=fmirkowski" target="_blank" rel="noopener noreferrer">
-          Hacker News
-        </Link>
+        
         {' '}or email me at{' '}
         <EmailText onClick={handleCopyEmail}>{email}</EmailText>{' '}
         <CopyButton onClick={handleCopyEmail}>{copied ? 'copied!' : 'copy'}</CopyButton>
