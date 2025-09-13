@@ -65,47 +65,51 @@ const Bio = () => {
 
   return (
     <Container>
-      <Paragraph>
-        hi. i'm Franek.
-      </Paragraph>
-      
-      <Paragraph>
-        i'm 16.
-      </Paragraph>
-      
-      <Paragraph>
-        at 15, i joined salespatriot (yc W25), a defense startup, as one of the first engineers.
-      </Paragraph>
-
-      <Paragraph>
-        spent a month in SF exploring the edge of research.
-      </Paragraph>
-      <Paragraph>
-        dropped out of high school.
-      </Paragraph>
-      <Paragraph>
-        now research eng @ ElevenLabs.
-      </Paragraph>
-      
-      <Paragraph>
-        Find me on{' '}
-        <Link href="https://github.com/fmirkowski" target="_blank" rel="noopener noreferrer">
-          GitHub
-        </Link>
-        {', '}
-        <Link href="https://www.linkedin.com/in/franek-mirkowski-a0abb3330/" target="_blank" rel="noopener noreferrer">
-          LinkedIn
-        </Link>
-        {', '}
-        <Link href="https://x.com/FranekMirko" target="_blank" rel="noopener noreferrer">
-          X
-        </Link>
-        
-        {' '}or email me at{' '}
-        <EmailText onClick={handleCopyEmail}>{email}</EmailText>{' '}
-        <CopyButton onClick={handleCopyEmail}>{copied ? 'copied!' : 'copy'}</CopyButton>
-        .
-      </Paragraph>
+      <Paragraph className="mb-2">
+      hi. i'm Franek.
+    </Paragraph>
+    
+    <Paragraph className="mb-6">
+      i'm 16.
+    </Paragraph>
+    
+    <Paragraph>
+      at 15, i joined salespatriot (yc W25), a defense startup, as one of the first engineers.
+    </Paragraph>
+    
+    <Paragraph>
+      spent a month in SF exploring the edge of research.
+    </Paragraph>
+    
+    <Paragraph>
+      dropped out of high school.
+    </Paragraph>
+    
+    <Paragraph>
+      now research eng @ ElevenLabs.
+    </Paragraph>
+    
+    {/* Footer separated with extra margin-top */}
+    <Paragraph className="mt-10">
+      Find me on{' '}
+      <Link href="https://github.com/fmirkowski" target="_blank" rel="noopener noreferrer">
+        GitHub
+      </Link>
+      {', '}
+      <Link href="https://www.linkedin.com/in/franek-mirkowski-a0abb3330/" target="_blank" rel="noopener noreferrer">
+        LinkedIn
+      </Link>
+      {', '}
+      <Link href="https://x.com/FranekMirko" target="_blank" rel="noopener noreferrer">
+        X
+      </Link>
+      {' '}or email me at{' '}
+      <EmailText onClick={handleCopyEmail}>{email}</EmailText>{' '}
+      <CopyButton onClick={handleCopyEmail}>
+        {copied ? 'copied!' : 'copy'}
+      </CopyButton>
+      .
+    </Paragraph>
 {/* 
       <Navigation>
         <NavLink href="#/resume">Resume</NavLink>
