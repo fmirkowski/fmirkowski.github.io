@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { useState } from 'react';
 
 const Container = styled.div`
   max-width: 680px;
@@ -13,57 +12,24 @@ const Paragraph = styled.p`
   letter-spacing: -0.02em;
 `;
 
-const Link = styled.a`
-  color: #111;
-  text-decoration: underline;
-  text-decoration-thickness: 1.5px;
-  text-underline-offset: 2px;
-  transition: opacity 0.2s ease;
-  
-  &:hover {
-    opacity: 0.7;
-  }
-`;
-
 const EmailText = styled.span`
   color: #111;
   text-decoration: underline;
   text-decoration-thickness: 1.5px;
   text-underline-offset: 2px;
-  cursor: pointer;
 `;
 
-const CopyButton = styled.span`
-  font-size: 16px;
-  margin-left: 6px;
-  cursor: pointer;
-  font-weight: 400;
-  color: #555;
+const InlineLinkish = styled.span`
+  text-decoration: underline;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 2px;
 `;
-
-// const Navigation = styled.div`
-//   margin-top: 60px;
-//   padding-top: 40px;
-//   border-top: 1px solid #eaeaea;
-// `;
-
-// const NavLink = styled(Link)`
-//   font-size: 18px;
-//   display: inline-block;
-//   margin-right: 32px;
-// `;
 
 const Bio = () => {
-  const [copied, setCopied] = useState(false);
-  const email = "mirkowskifranciszek@gmail.com";
-  
-  const handleCopyEmail = () => {
-    navigator.clipboard.writeText(email);
-    setCopied(true);
-    setTimeout(() => setCopied(false), 2000);
-  };
+  const emailDisplay = 'hi [at] mirkowski [dot] dev';
+  const githubDisplay = 'github [dot] com / fmirkowski';
+  const xDisplay = 'x [dot] com / FranekMirko';
 
-  rconst Bio = () => {
   return (
     <Container>
       <Paragraph className="mb-2">
@@ -79,61 +45,27 @@ const Bio = () => {
       </Paragraph>
 
       <Paragraph>
-        spent a month in SF exploring the edge of research.
+        i really like deep learning research.
       </Paragraph>
 
       <Paragraph>
-        dropped out of high school.
+        i dropped out of high school.
       </Paragraph>
 
       <Paragraph>
-        now research eng @ ElevenLabs.
+        i now do research eng @ ElevenLabs.
       </Paragraph>
 
-      {/* Footer separated with extra margin-top */}
       <Paragraph className="mt-10">
-        Find me on{' '}
-        <Link
-          href="https://github.com/fmirkowski"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          GitHub
-        </Link>
+        find me on{' '}
+        <InlineLinkish>{githubDisplay}</InlineLinkish>
         {', '}
-        <Link
-          href="https://www.linkedin.com/in/franek-mirkowski-a0abb3330/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          LinkedIn
-        </Link>
-        {', '}
-        <Link
-          href="https://x.com/FranekMirko"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          X
-        </Link>
+        <InlineLinkish>{xDisplay}</InlineLinkish>
         {' '}or email me at{' '}
-        <EmailText onClick={handleCopyEmail}>{email}</EmailText>{' '}
-        <CopyButton onClick={handleCopyEmail}>
-          {copied ? 'copied!' : 'copy'}
-        </CopyButton>
-        .
+        <EmailText>{emailDisplay}</EmailText>.
       </Paragraph>
-
-      {/* 
-      <Navigation>
-        <NavLink href="#/resume">Resume</NavLink>
-        <NavLink href="#/products">Products</NavLink>
-      </Navigation> 
-      */}
     </Container>
   );
 };
 
 export default Bio;
-
-     
