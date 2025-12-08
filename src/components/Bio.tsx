@@ -58,9 +58,9 @@ const Bio = () => {
 
       <Paragraph className="mt-10">
         find me on{' '}
-        <InlineLinkish>{githubDisplay}</InlineLinkish>
+        {githubDisplay}
         {', '}
-        <InlineLinkish>{xDisplay}</InlineLinkish>
+        {xDisplay}
         {' '}or email me at{' '}
         <EmailText>{emailDisplay}</EmailText>.
       </Paragraph>
