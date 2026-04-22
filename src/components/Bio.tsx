@@ -40,7 +40,7 @@ const Bio = () => {
   return (
     <Container>
       <Paragraph>
-        {/* hi. i'm Franek.
+        hi. i'm Franek.
       </Paragraph>
       <Paragraph>
         i'm 17.
@@ -49,13 +49,13 @@ const Bio = () => {
         at 15, i joined salespatriot (yc W25), a defense startup, as one of the first engineers.
       </Paragraph>
       <Paragraph>
-        i really like deep learning research.
+        i really like programming autonomous learning systems.
       </Paragraph>
       <Paragraph>
-        i dropped out of high school.
+        dropped out of high school.
       </Paragraph>
       <Paragraph>
-        i now do research eng @ ElevenLabs.
+        now doing research eng @ ElevenLabs.
       </Paragraph>
       <Paragraph>
         find me on{' '}
@@ -66,7 +66,8 @@ const Bio = () => {
         <InlineLink href="https://x.com/FranekMirko" target="_blank" rel="noopener noreferrer">
           x
         {' '}or email me at{' '}
-          hi [at] mirkowski [dot] dev        . */}
+          hi [at] mirkowski [dot] dev
+        .
       </Paragraph>
     </Container>
   );
