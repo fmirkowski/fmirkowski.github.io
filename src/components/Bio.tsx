@@ -36,7 +36,7 @@ const Bio = () => {
         at 15, i joined salespatriot (yc W25), a defense startup, as one of the first engineers.
       </Paragraph>
       <Paragraph>
-        i really like autonomous learning systems.
+        i really like programming autonomous learning systems.
       </Paragraph>
       <Paragraph>
         dropped out of high school.
