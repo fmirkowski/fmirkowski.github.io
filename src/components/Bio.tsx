@@ -12,57 +12,61 @@ const Paragraph = styled.p`
   letter-spacing: -0.02em;
 `;
 
-const EmailText = styled.span`
+const EmailLink = styled.a`
   color: #111;
   text-decoration: underline;
   text-decoration-thickness: 1.5px;
   text-underline-offset: 2px;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.6;
+  }
 `;
 
-const InlineLinkish = styled.span`
+const InlineLink = styled.a`
+  color: inherit;
   text-decoration: underline;
   text-decoration-thickness: 1.5px;
   text-underline-offset: 2px;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.6;
+  }
 `;
 
 const Bio = () => {
-  const emailDisplay = 'hi [at] mirkowski [dot] dev';
-  const githubDisplay = 'github [dot] com / fmirkowski';
-  const xDisplay = 'x [dot] com / FranekMirko';
-
   return (
     <Container>
-      <Paragraph className="mb-2">
-        hi. i'm Franek.
+      <Paragraph>
+        {/* hi. i'm Franek.
       </Paragraph>
-
-      <Paragraph className="mb-6">
-        i'm 16.
+      <Paragraph>
+        i'm 17.
       </Paragraph>
-
       <Paragraph>
         at 15, i joined salespatriot (yc W25), a defense startup, as one of the first engineers.
       </Paragraph>
-
       <Paragraph>
         i really like deep learning research.
       </Paragraph>
-
       <Paragraph>
         i dropped out of high school.
       </Paragraph>
-
       <Paragraph>
         i now do research eng @ ElevenLabs.
       </Paragraph>
-
-      <Paragraph className="mt-10">
+      <Paragraph>
         find me on{' '}
-        {githubDisplay}
+        <InlineLink href="https://github.com/fmirkowski" target="_blank" rel="noopener noreferrer">
+          github
+        </InlineLink>
         {', '}
-        {xDisplay}
+        <InlineLink href="https://x.com/FranekMirko" target="_blank" rel="noopener noreferrer">
+          x
         {' '}or email me at{' '}
-        <EmailText>{emailDisplay}</EmailText>.
+          hi [at] mirkowski [dot] dev        . */}
       </Paragraph>
     </Container>
   );
