@@ -12,25 +12,12 @@ const Paragraph = styled.p`
   letter-spacing: -0.02em;
 `;
 
-const EmailLink = styled.a`
-  color: #111;
-  text-decoration: underline;
-  text-decoration-thickness: 1.5px;
-  text-underline-offset: 2px;
-  cursor: pointer;
-
-  &:hover {
-    opacity: 0.6;
-  }
-`;
-
 const InlineLink = styled.a`
   color: inherit;
   text-decoration: underline;
   text-decoration-thickness: 1.5px;
   text-underline-offset: 2px;
   cursor: pointer;
-
   &:hover {
     opacity: 0.6;
   }
@@ -49,7 +36,7 @@ const Bio = () => {
         at 15, i joined salespatriot (yc W25), a defense startup, as one of the first engineers.
       </Paragraph>
       <Paragraph>
-        i really like programming autonomous learning systems.
+        i really like autonomous learning systems.
       </Paragraph>
       <Paragraph>
         dropped out of high school.
@@ -65,9 +52,8 @@ const Bio = () => {
         {', '}
         <InlineLink href="https://x.com/FranekMirko" target="_blank" rel="noopener noreferrer">
           x
-        {' '}or email me at{' '}
-          hi [at] mirkowski [dot] dev
-        .
+        </InlineLink>
+        {' '}or email me at hi [at] mirkowski [dot] dev.
       </Paragraph>
     </Container>
   );
