@@ -36,14 +36,16 @@ const Bio = () => {
         at 15, i joined salespatriot (yc W25), a defense startup, as one of the first engineers.
       </Paragraph>
       <Paragraph>
+        at 16 i joined ElevenLabs as a research eng, now working on on-device tts along with amazing people.
+      </Paragraph>
+
+      <Paragraph>
         i really like programming autonomous learning systems.
       </Paragraph>
-      <Paragraph>
-        dropped out of high school.
-      </Paragraph>
-      <Paragraph>
-        now doing research eng @ ElevenLabs.
-      </Paragraph>
+      {/* <Paragraph>
+        some highlights:
+        - outline cool PRs I made - cool reserach repos - yt channel vids - tutorials - blogs. Let's add something to this section in N weeks.
+      </Paragraph> */}
       <Paragraph>
         find me on{' '}
         <InlineLink href="https://github.com/fmirkowski" target="_blank" rel="noopener noreferrer">
