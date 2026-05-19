@@ -40,7 +40,7 @@ const Bio = () => {
       </Paragraph>
 
       <Paragraph>
-        i really like programming autonomous learning systems.
+        in general i really like programming autonomously learning systems.
       </Paragraph>
       {/* <Paragraph>
         some highlights:
